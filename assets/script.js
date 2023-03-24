@@ -23,7 +23,7 @@ const blurring = () => {
     bg.style.filter = `blur(${((load - 0) * (0 - 30) / (100 - 0) + 30)}px)`;
 
     // Output the current load percentage to the console
-    console.log(`Load: ${load}`);
+    //console.log(`Load: ${load}`);
 };
 
 // Call the blurring function at 30ms intervals and store the ID of the interval in the integer variable
