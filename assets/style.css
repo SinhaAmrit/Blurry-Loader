@@ -12,6 +12,7 @@ body {
 }
 .bg {
   background: url("./wallpaper.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
   position: absolute;
   top: -30px;
   left: -30px;
